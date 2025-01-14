@@ -1,0 +1,25 @@
+# Core Libraries
+pandas==1.5.3
+numpy==1.23.5
+
+# Visualization Libraries
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+
+# Machine Learning Libraries
+scikit-learn==1.2.3
+tensorflow==2.10.1
+
+# Time-Series Analysis
+statsmodels==0.14.0
+
+# Geospatial Analysis
+geopandas==0.14.0
+shapely==2.0.1
+pyproj==3.6.0
+fiona==1.9.4
+
+# Additional Utilities
+jupyter==1.0.0
+notebook==7.0.4
