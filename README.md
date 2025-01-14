@@ -75,8 +75,7 @@ Mapped temperature and humidity variations across continents and countries.
 - Explore hybrid models for better forecasting accuracy.
 - Extend geospatial analysis to support localized environmental policymaking.
 ## 💡 How to Run the Project
-- Clone this repository:
-git clone https://github.com/yourusername/global-weather-forecasting.git  
+- Clone this repository: https://github.com/Tessa18/Weather_Trend_Prediction 
 - Install required dependencies:
 **pip install -r requirements.txt** 
 - Download and place the dataset in the data/ folder.
