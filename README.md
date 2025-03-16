@@ -1,6 +1,6 @@
 # Weather_Trend_Prediction
 ## Overview
-This project focuses on analyzing and forecasting global weather trends using advanced data science techniques. By leveraging machine learning models, time-series forecasting, and geospatial analysis, it uncovers critical insights into weather patterns, correlations, and anomalies. The findings aim to support decision-making in climate studies, policy planning, and environmental sustainability.
+This project focuses on analyzing and forecasting global weather trends using advanced data science techniques. By leveraging machine learning models, time-series forecasting, geospatial analysis, and distributed computing with Apache Spark and SQL, it uncovers critical insights into weather patterns, correlations, and anomalies. The findings aim to support decision-making in climate studies, policy planning, and environmental sustainability.
 
 ## 🛠️ Features
 
@@ -8,13 +8,17 @@ This project focuses on analyzing and forecasting global weather trends using ad
 
 **Exploratory Data Analysis (EDA)**: Uncovered trends, seasonality, and correlations in weather metrics.
 
-**Visualizations**: histograms, heatmaps, and boxplots.
+**Visualizations**: Histograms, heatmaps, and boxplots for a detailed look at weather data.
+
+**Spark and SQL**: Used Apache Spark for large-scale data processing and SQL for efficient querying and aggregation of weather data.
 
 **Forecasting Models**: Linear Regression, ARIMA, and LSTM implemented for temperature forecasting. Ensemble approach combining ARIMA and LSTM outputs.
 
 **Advanced Analyses**:Anomaly detection using Z-Score and Isolation Forest. Geospatial mapping of weather patterns using GeoPandas.
 
-**Insights and Recommendations**: Actionable insights on seasonal trends and correlations for policy-making.
+**Real-time Data Processing**: Integrated real-time weather data processing using Spark Streaming (planned future work).
+
+**SQL Aggregation**: Applied SQL queries to aggregate and manipulate weather data for better insights.
 
 
 ## 📂 Dataset
@@ -30,15 +34,19 @@ This project focuses on analyzing and forecasting global weather trends using ad
 **Languages**: Python
 
 ### Libraries:
-**Data Analysis**: pandas, numpy
+-  **Data Analysis**: pandas, numpy
 
-**Visualization**: matplotlib, seaborn, plotly
+-  **Visualization**: matplotlib, seaborn, plotly
 
-**Machine Learning**: scikit-learn, tensorflow
+-  **Machine Learning**: scikit-learn, tensorflow
 
-**Time-Series Analysis**: statsmodels, ARIMA
+-  **Time-Series Analysis**: statsmodels, ARIMA
 
-**Geospatial Analysis**: geopandas
+-  **Geospatial Analysis**: geopandas
+
+-  **Distributed Computing**: Apache Spark
+
+-  **SQL**: PySpark SQL for querying weather data
 
 **Platforms**: Jupyter Notebook for interactive analysis. GitHub for version control and project sharing.
 
@@ -70,10 +78,12 @@ Mapped temperature and humidity variations across continents and countries.
 - Correlation heatmaps for relationships between features.
 - Geospatial maps for country-level weather patterns.
 - Time-series plots comparing historical vs. forecasted trends.
+- SQL-driven visualizations using Spark SQL queries.
 ## 📝 Future Work
-- Incorporate additional weather features, such as solar radiation and precipitation.
-- Explore hybrid models for better forecasting accuracy.
-- Extend geospatial analysis to support localized environmental policymaking.
+-  **Real-Time Data Processing**: Implement a live Spark Streaming pipeline to process weather data in real-time and make predictions.
+-  **Additional Weather Features**: Incorporate features like solar radiation and precipitation for better model accuracy.
+-  **Hybrid Models**: Explore hybrid models combining ARIMA, LSTM, and other machine learning techniques to improve forecasting accuracy.
+-  **Localized Environmental Policy Support**: Extend geospatial analysis to support localized environmental policymaking.
 ## 💡 How to Run the Project
 - Clone this repository: https://github.com/Tessa18/Weather_Trend_Prediction 
 - Install required dependencies:
